@@ -1,0 +1,32 @@
+package BugsNoCodigo;
+
+
+public class NoMuro {
+
+    
+    public static void main(String[] args)
+    {
+        int Bugs = 1;
+        String palavra = "bugs";
+        
+        while (Bugs >0)
+        {
+            if (Bugs == 1)
+                    {
+                        palavra = "bug";
+                    }
+            System.out.println(Bugs + " " + palavra + " no codigo");
+            System.out.println(Bugs + " " + palavra + " no coooodigo");
+            System.out.println("edite o codigo");
+            System.out.println("compile de novo");
+            System.out.println("quantos ficarao?");
+            Bugs = (int)Math.floor(Math.random()*100);
+            
+            if (Bugs == 0)
+                    {
+                        System.out.println ("finalmente, nenhum bug ;-;");
+                    }
+        }
+    }
+    
+}
